@@ -1,0 +1,15 @@
+.avatar-n-social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 900px) {
+  .avatar-n-social {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+}

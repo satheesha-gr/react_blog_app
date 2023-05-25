@@ -1,0 +1,26 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.avatar-image {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.avatar-info {
+  font-size: 1.3rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.avatar-info .author {
+  font-size: 1.5rem;
+  font-weight: 600;
+  max-width: fit-content;
+}
+
+.avatar-info .date {
+  color: grey;
+}
