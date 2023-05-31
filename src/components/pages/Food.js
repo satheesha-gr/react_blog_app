@@ -1,5 +1,6 @@
 import ScrollToTop from "react-scroll-to-top";
 import ArticlesVertical from "../ArticlesVertical/ArticlesVertical";
+import Footer from "../Footer/Footer";
 
 const ads = require("../API_Data/FoodAds.json");
 const articles = require("../API_Data/FoodArticles.json");
@@ -17,6 +18,7 @@ const Food = () => {
         date="October 5 2022"
       />
       <ScrollToTop className="scroll-arrow" color="white" smooth />
+      <Footer/>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import ArticlesHorizontal from "../ArticlesHorizontal/ArticlesHorizontal";
 import ArticlesVertical from "../ArticlesVertical/ArticlesVertical";
 import ImageSlideshow from "../ImageSlideShow/ImageSlideShow";
 import LatestStories from "../LatestStories/LatestStories";
+import Footer from "../Footer/Footer";
 
 const articlesVertical = require("../API_Data/Articles.json");
 const articlesHorizontal = require("../API_Data/ArticlesHorizontal.json");
@@ -31,6 +32,7 @@ const Home = () => {
         color="#000000"
         smooth
       />
+      <Footer/>
     </div>
   );
 };

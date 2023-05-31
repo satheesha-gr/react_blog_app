@@ -2,6 +2,7 @@ import React from "react";
 import ScrollToTop from "react-scroll-to-top";
 import ArticlesVertical from "../ArticlesVertical/ArticlesVertical";
 import Photo from "../Images/Brahmastra.jpg";
+import Footer from "../Footer/Footer";
 
 const articles = require("../API_Data/BollywoodArticles.json");
 const bollyWoodAds = require("../API_Data/BollywoodAds.json");
@@ -19,6 +20,7 @@ const Bollywood = () => {
         date="September 9 2022"
       />
       <ScrollToTop className="scroll-arrow" color="white" smooth />
+      <Footer/>
     </div>
   );
 };
