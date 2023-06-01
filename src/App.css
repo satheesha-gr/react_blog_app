@@ -9,7 +9,7 @@ body {
   flex-flow: column;
   align-content: center;
   margin: auto;
-  max-width: 1230px;
+  width: fit-content;
   overflow-x: hidden;
 }
 
@@ -20,4 +20,10 @@ body {
 
 .scroll-arrow:hover {
   box-shadow: 0 0 10px 5px rgb(209, 207, 207);
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    width: 100%
+  }
 }

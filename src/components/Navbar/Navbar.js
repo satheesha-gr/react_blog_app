@@ -54,7 +54,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Box sx={{ flexGrow: 1 }} className="app-bar">
+      <Box sx={{ flexGrow: 0 }} className="app-bar">
         <AppBar position="fixed">
           <Toolbar>
             <Typography

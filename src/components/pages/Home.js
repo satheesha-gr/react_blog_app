@@ -32,7 +32,7 @@ const Home = () => {
         color="#000000"
         smooth
       />
-      <Footer/>
+        <Footer/>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import Divider from "@mui/material/Divider";
 import "../LatestStories/LatestStories.css";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 
 
 const LatestStories = () => {
